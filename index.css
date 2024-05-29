@@ -31,16 +31,24 @@ nav ul li a {
     text-decoration: none;
 }
 
-.home, .projects, .contact {
+.home, .projects, .about, .contact {
     padding: 50px 0;
     text-align: center;
 }
 
 .projects .project-item {
-    margin-bottom: 20px;
+    display: inline-block;
+    width: 30%;
+    margin: 1%;
     padding: 15px;
     border: 1px solid #ccc;
     border-radius: 8px;
+    vertical-align: top;
+}
+
+.projects .project-item img {
+    max-width: 100%;
+    height: auto;
 }
 
 .contact form {

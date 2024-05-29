@@ -1,8 +1,9 @@
 # chatgpt-example
 
 HTML: Missing closing anchor tag for the "Contact" link in the navigation.
-HTML: Incorrect nesting of the second <p> in the footer (should be inside a <div>).
-HTML: Missing for attribute value for the "Email" label.
-HTML: Missing closing tag for the <form> element.
-CSS: Incorrect property value for the position of the footer (should use relative instead of fixed to avoid overlapping with content).
-CSS: Missing box-sizing: border-box for input and textarea to ensure proper padding.
+HTML: Missing alt attributes for the images in the projects section.
+HTML: Incorrect form action attribute (should be corrected to an actual endpoint or placeholder).
+HTML: Missing closing </div> tag for the container div in the about section.
+CSS: Incorrect width value for the .container class (should be max-width instead of width to prevent overflow).
+CSS: Overlapping issue with footer when using position: fixed (consider changing to relative or static and adjusting layout).
+CSS: Add box-sizing: border-box to all elements to ensure proper padding and border calculations.
